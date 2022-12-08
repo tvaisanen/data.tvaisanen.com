@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "data.tvaisanen.com"
+version = "0.1.0"
+description = ""
+authors = ["tvaisanen <vaisanen.toni@gmail.com>"]
+readme = "README.md"
+# packages = [{include = ""}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy =  "1.22.0"
+pandas = "1.5.0"
+scikit-learn = "1.1.2"
+seaborn = "^0.12.0"
+statsmodels = "^0.13.2"
+streamlit = "^1.13.0"
+plotly = "^5.10.0"
+ipython = "^8.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
